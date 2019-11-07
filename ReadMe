@@ -1,0 +1,17 @@
+@Author: Abinashi Singh
+
+-Need to import numPy library as np that will help creating grid with zeroes in it initially. And this will board will appear on console
+- Import Math library
+- import sys to close and open the new window that will show the current four game animarion
+-Import pygame to see animation of connect four game
+
+ConnnectFour.py
+This is a simple algorithm to run connect four game. It chooses the best score, but does not look at every combination to achieve the best score. The AI or BOT will pick move randomly. There is no smart move made by Bot in this version.
+
+connectFourMinMax.py
+This algorithm is designed to make AI bit smarter and always choose the center move to if it's an AI's turn first. This increases the chance of winning. Moreover, every move is evaluated first and then implement it based on scores. However, you will notice, this algo takes longer when we increase the look-up depth. For example, set the dept to 5 or 6 in the main program loop, it will take forever to make a move, since it is looking for every combination of a winning move.
+
+connectFourAlphaBeta.py
+This is a same algo as connectFourMinMax.py, but here the lookup time is way better than it's previous version. Since Alpha-beta pruning is implemented in the minMax algorithm. Set the depth to 5 or 6 and compare it with connectFourMinMax.py with the same depth. You'll notice, this version does not take long time to make a move even when the depth is deeper.
+
+
