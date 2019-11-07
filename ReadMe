@@ -1,5 +1,5 @@
 @Author: Abinashi Singh
-
+@require python version > 3
 -Need to import numPy library as np that will help creating grid with zeroes in it initially. And this will board will appear on console
 - Import Math library
 - import sys to close and open the new window that will show the current four game animarion
